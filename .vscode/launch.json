@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CDTimer",
+      "request": "launch",
+      "mainClass": "Essentials.CDTimer",
+      "projectName": "Pyoject_de3e6f4f"
+    },
+    {
+      "type": "java",
+      "name": "CountdownTimer",
+      "request": "launch",
+      "mainClass": "CountdownTimer",
+      "projectName": "Pyoject_de3e6f4f"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/prajwal/Pictures/Pyoject/1Raw",
+      "program": "c:/Users/prajwal/Pictures/Pyoject/1Raw/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
