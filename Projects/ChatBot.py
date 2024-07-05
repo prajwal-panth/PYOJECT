@@ -14,7 +14,7 @@ def display_info():
 
 def bot(msg):
     data = '{"contents":[{"parts":[{"text":"' + msg + '"}]}]}'
-    url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyD3pui6RAiyjEpg5C4uC7R_8xi700nd5Ok'
+    url = 'Add Your Gemini API'
     headers = {'Content-Type': 'application/json'}
     
     response = requests.post(url, headers=headers, data=data).json()
